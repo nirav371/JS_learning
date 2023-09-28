@@ -1,11 +1,14 @@
-let score = 'nirav'
+let score = "33abc"
+// there are diffrent diffrent types of console console.table([]), info, warn, error etc.
+// set vs array => there is a only one diffrence between them. this is set does not allow repeated values
+// map vs objects => i) map order object not order ii)duplicates keys allow in map in object that is not allowed 
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-// console.log(valueInNumber);
+let valueInNumber = Number(score) // String(y) Boolean(y) Object(y)
+//console.log(typeof valueInNumber); // output: number 
+// console.log(valueInNumber); // output: Nan
 
 
 // "33" => 33
@@ -62,7 +65,7 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+console.log(gameCounter++);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
