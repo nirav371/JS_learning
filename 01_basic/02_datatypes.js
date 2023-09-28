@@ -31,7 +31,7 @@ let a = [1,2]
 let b = a
 b[1] = 3 
 console.log(a) // output: [1,3] // array, function this property and object act as refence point, date pn refrence tarike varte che karnke e object na rite aave che
-// primitive datatypes which stores the values and non-primitive datatypes which stores the refrence point of the value
+// primitive(call by values) datatypes which stores the values and non-primitive(call by refernce) datatypes which stores the refrence point of the value
 /* 
 nu
 */
