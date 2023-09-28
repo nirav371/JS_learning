@@ -24,6 +24,14 @@ let state;
 
 
 // object
-
+console.log(typeof "#")
 console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+console.log(typeof null); // object and his value is 0
+let a = [1,2]
+let b = a
+b[1] = 3 
+console.log(a) // output: [1,3] // array, function this property and object act as refence point, date pn refrence tarike varte che karnke e object na rite aave che
+// primitive datatypes which stores the values and non-primitive datatypes which stores the refrence point of the value
+/* 
+nu
+*/
