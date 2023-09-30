@@ -13,7 +13,7 @@ let valueInNumber = Number(score) // String(y) Boolean(y) Object(y)
 
 // "33" => 33
 // "33abc" => NaN
-//  true => 1; false => 0; "" => false; "f" => true
+//  true => 1; false => 0; 
 
 let isLoggedIn = "nirav"
 
