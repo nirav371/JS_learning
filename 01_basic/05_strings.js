@@ -5,7 +5,7 @@ const repoCount = 50
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('nirav-hc-com')
+const gameName = new String('nirav-hc-com') // for protype view you can type this in console then call this in console
 
 // console.log(gameName[0]);
 // console.log(gameName.__proto__);
