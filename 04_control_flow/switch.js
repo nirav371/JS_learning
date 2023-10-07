@@ -11,16 +11,16 @@ const month = "march"
 
 switch (month) {
     case "jan":
-        console.log("January");
+        console.log("january")
         break;
     case "feb":
-        console.log("feb");
+        console.log('febuary')
         break;
-    case "march":
-        console.log("march");
+    case "mar":
+        console.log("march")
         break;
-    case "april":
-        console.log("april");
+    case "apr":
+        console.log("april")
         break;
 
     default:
