@@ -1,5 +1,5 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object() //singletone object
+const tinderUser = {} //non singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -58,7 +58,7 @@ users[1].email
 const course = {
     coursename: "js in hindi",
     price: "999",
-    courseInstructor: "hitesh"
+    courseInstructor: "Nirav"
 }
 
 // course.courseInstructor
@@ -69,7 +69,7 @@ const {courseInstructor: instructor} = course
 console.log(instructor);
 
 // {
-//     "name": "hitesh",
+//     "name": "nirav",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
