@@ -35,7 +35,6 @@ function loginUserMessage(username = "sam"){
 }
 
 // console.log(loginUserMessage("nirav"))
-// console.log(loginUserMessage("nirav"))
 
 
 function calculateCartPrice(val1, val2, ...num1){
@@ -45,7 +44,7 @@ function calculateCartPrice(val1, val2, ...num1){
 // console.log(calculateCartPrice(200, 400, 500, 2000))
 
 const user = {
-    username: "hitesh",
+    username: "Nirav",
     prices: 199
 }
 
