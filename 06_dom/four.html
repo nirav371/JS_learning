@@ -15,13 +15,13 @@
 <script>
     function addLanguage(langName){
         const li = document.createElement('li');
-        li.innerHTML = `${langName}`
+        li.innerHTML = `${langName}` // with innerhtml we overwrite on text 
         document.querySelector('.language').appendChild(li)
     }
     addLanguage("python")
     addLanguage("typescript")
 
-    function addOptiLanguage(langName){
+    function addOptiLanguage(langName){ //optimze way compare to addlanguage approach // in this we append text 
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))
         document.querySelector('.language').appendChild(li)
