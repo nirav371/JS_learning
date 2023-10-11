@@ -33,7 +33,18 @@ const myCoding = [
     },
 ]
 
-myCoding.forEach( (item) => {
+let hello1 = myCoding.forEach( (item) => {
     
     console.log(item.languageName);
+    return item.languageFileName
 } )
+console.log(hello1)
+
+let hello = myCoding.map((item) => {
+    console.log(item.languageName)
+    return item.languageFileName + "hello"
+})
+console.log(hello)
+
+let hello3 = myCoding.filter((item) => {return item.languageFileName == 'js'})
+console.log(hello3)
