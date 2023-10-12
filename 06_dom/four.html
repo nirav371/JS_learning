@@ -15,6 +15,7 @@
 <script>
     function addLanguage(langName){
         const li = document.createElement('li');
+        li.style.color = 'orange'
         li.innerHTML = `${langName}` // with innerhtml we overwrite on text 
         document.querySelector('.language').appendChild(li)
     }
