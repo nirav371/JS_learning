@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Chai aur code</h1>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayNirav = function(){
+        console.log("Nirav");
+    }
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "best JS series"
+    }
+    // handdler == unnammed function
+    // callback function jema aapne last ma paranthis lagavta nathi karnke aapne e vakhte ene execute nathi karvu aapne ene bollavvu che jyare ene bolai shu tyare e exucute thai jase
+    // callback function ma ane handller ma function no refernce aapvano hoy che ene executte nathi karvanu hotu
+    setTimeout(changeText, 2000)
+
+    document.querySelector('#stop').addEventListener('click', function(){
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    })
+</script>
+</html>
