@@ -19,7 +19,7 @@
     // handdler == unnammed function
     // callback function jema aapne last ma paranthis lagavta nathi karnke aapne e vakhte ene execute nathi karvu aapne ene bollavvu che jyare ene bolai shu tyare e exucute thai jase
     // callback function ma ane handller ma function no refernce aapvano hoy che ene executte nathi karvanu hotu
-    setTimeout(changeText, 2000)
+    const changeMe = setTimeout(changeText, 2000)
 
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
