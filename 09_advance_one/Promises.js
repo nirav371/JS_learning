@@ -1,15 +1,15 @@
-const promiseOne = new Promise(function(resolve, reject){
-    //Do an async task
-    // DB calls, cryptography, network
-    setTimeout(function(){
-        console.log('Async task is compelete');
-        resolve()
-    }, 1000)
-})
+// const promiseOne = new Promise(function(resolve, reject){
+//     //Do an async task
+//     // DB calls, cryptography, network
+//     setTimeout(function(){
+//         console.log('Async task is compelete');
+//         resolve()
+//     }, 2000)
+// })
 
-promiseOne.then(function(){
-    console.log("Promise consumed");
-})
+// promiseOne.then(function(){
+//     console.log("Promise consumed");
+// })
 
 new Promise(function(resolve, reject){
     setTimeout(function(){
@@ -21,19 +21,19 @@ new Promise(function(resolve, reject){
     console.log("Async 2 resolved");
 })
 
-const promiseThree = new Promise(function(resolve, reject){
-    setTimeout(function(){
-        resolve({username: "Chai", email: "chai@example.com"})
-    }, 1000)
-})
+// const promiseThree = new Promise(function(resolve, reject){
+//     setTimeout(function(){
+//         resolve({username: "Chai", email: "chai@example.com"})
+//     }, 1000)
+// })
 
-promiseThree.then(function(user){
-    console.log(user);
-})
+// promiseThree.then(function(user){
+//     console.log(user);
+// })
 
 const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if (!error) {
             resolve({username: "hitesh", password: "123"})
         } else {
@@ -54,27 +54,27 @@ const promiseFour = new Promise(function(resolve, reject){
 
 
 
-const promiseFive = new Promise(function(resolve, reject){
-    setTimeout(function(){
-        let error = true
-        if (!error) {
-            resolve({username: "javascript", password: "123"})
-        } else {
-            reject('ERROR: JS went wrong')
-        }
-    }, 1000)
-});
+// const promiseFive = new Promise(function(resolve, reject){
+//     setTimeout(function(){
+//         let error = true
+//         if (!error) {
+//             resolve({username: "javascript", password: "123"})
+//         } else {
+//             reject('ERROR: JS went wrong')
+//         }
+//     }, 1000)
+// });
 
-async function consumePromiseFive(){
-    try {
-        const response = await promiseFive
-        console.log(response);
-    } catch (error) {
-        console.log(error);
-    }
-}
+// async function consumePromiseFive(){
+//     try {
+//         const response = await promiseFive
+//         console.log(response);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 
-consumePromiseFive()
+// consumePromiseFive()
 
 // async function getAllUsers(){
 //     try {
@@ -89,14 +89,14 @@ consumePromiseFive()
 
 //getAllUsers()
 
-fetch('https://api.github.com/users/hiteshchoudhary')
-.then((response) => {
-    return response.json()
-})
-.then((data) => {
-    console.log(data);
-})
-.catch((error) => console.log(error))
+// fetch('https://api.github.com/users/hiteshchoudhary')
+// .then((response) => {
+//     return response.json()
+// })
+// .then((data) => {
+//     console.log(data);
+// })
+// .catch((error) => console.log(error))
 
 // promise.all
 // yes this is also available, kuch reading aap b kro.
