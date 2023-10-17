@@ -7,7 +7,7 @@ class User {
         this.password = password
     }
 
-    encryptPassword(){
+    encryptPassword(){      // aa che to function j pn class ni andar aapne aane method kaiye chi a
         return `${this.password}abc`
     }
     changeUsername(){
