@@ -53,7 +53,7 @@ const TASupport = {
 Teacher.__proto__ = User
 
 // modern syntax
-Object.setPrototypeOf(TeachingSupport, Teacher)
+Object.setPrototypeOf(TeachingSupport, Teacher) // ek prakarnu classes nu extends jevu j che aa object ma extend kari rhyu che
 
 let anotherUsername = "ChaiAurCode     "
 
